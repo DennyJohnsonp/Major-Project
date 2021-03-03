@@ -57,43 +57,6 @@
         margin-top: -241px;
     }
     
-    body #text {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-    }
-    
-    body #text h4 {
-        margin-top: -430px;
-        letter-spacing: 14px;
-        font-size: 24px;
-        z-index: 3;
-    }
-    
-    body #text h1 {
-        margin-top: -20px;
-        letter-spacing: 28px;
-        font-size: 110px;
-        background-image: url(Images/p1\ \(3\).jpg);
-        background-size: cover;
-        color: transparent;
-        -webkit-background-clip: text;
-        word-spacing: 2px;
-        z-index: 3;
-        position: relative;
-    }
-    
-    body #text #s {
-        margin-top: -50px;
-        z-index: 3;
-        position: relative;
-    }
-    
-    body #text p {
-        font-family: cursive;
-        margin-top: -16px;
-        z-index: 3;
-    }
-    
     body #img1 {
         margin-left: -360px;
         margin-top: 30px;
@@ -102,29 +65,6 @@
     body #img2 {
         margin-left: 1000px;
         margin-top: -890px;
-    }
-    
-    body button {
-        margin-left: 540px;
-        align-items: center;
-        margin-top: 20px;
-        width: 200px;
-        font-size: 24px;
-        height: 40px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border-radius: 20px;
-        text-decoration: none;
-        background-color: rgba(150, 34, 34, 0.685);
-        border-radius: 30px;
-        font-size: 20px;
-        border: 1px solid white;
-        color: aliceblue;
-        padding: 4px;
-    }
-    
-    body button:hover {
-        background-color: rgba(72, 72, 235, 0.74);
-        color: whitesmoke;
     }
     
     body footer {
