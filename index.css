@@ -120,11 +120,13 @@
         border: 1px solid white;
         color: aliceblue;
         padding: 4px;
+        border: none;
     }
     
     body button:hover {
         background-color: rgba(72, 72, 235, 0.74);
         color: whitesmoke;
+        border: none;
     }
     
     body footer {

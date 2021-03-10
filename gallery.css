@@ -1,76 +1,166 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-        z-index: 0;
-        color: black;
-    }
-    
-    body {
-        background-color: beige;
-        width: 100%;
-        opacity: 100%;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    body div ul h4 {
-        display: inline-flex;
-        font-family: 'Times New Roman', Times, serif;
-        padding: 10px;
-        margin-right: 40px;
-        font-size: 17px;
-        text-shadow: .5px .5px black;
-        position: relative;
-    }
-    
-    body div ul h4:after {
-        background: none repeat scroll 0 0 transparent;
-        bottom: 0;
-        content: "";
-        display: block;
-        height: 2px;
-        left: 50%;
-        position: absolute;
-        background: black;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
-        width: 0;
-    }
-    
-    body div ul h4:hover:after {
-        width: 100%;
-        left: 0;
-    }
-    
-    body div #firstthree {
-        margin-top: 60px;
-        margin-left: 70px;
-    }
-    
-    body div #logo {
-        margin-left: 420px;
-        margin-top: -230px;
-    }
-    
-    body div #lastthree {
-        margin-left: 810px;
-        margin-top: -241px;
-    }
-    
-    body #img1 {
-        margin-left: -360px;
-        margin-top: 30px;
-    }
-    
-    body #img2 {
-        margin-left: 1000px;
-        margin-top: -890px;
-    }
-    
-    body footer {
-        background-color: gray;
-        color: whitesmoke;
-        margin-top: 26px;
-        padding-top: 2px;
-        text-align: center;
-    }
+        * {
+            margin: 0px;
+            padding: 0px;
+            z-index: 0;
+            color: black;
+        }
+        
+        body {
+            background-color: beige;
+            width: 100%;
+            opacity: 100%;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        body div ul h4 {
+            display: inline-flex;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            margin-right: 40px;
+            font-size: 17px;
+            text-shadow: .5px .5px black;
+            position: relative;
+        }
+        
+        body div ul h4:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: black;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        
+        body div ul h4:hover:after {
+            width: 100%;
+            left: 0;
+        }
+        
+        body div #firstthree {
+            margin-top: 60px;
+            margin-left: 70px;
+        }
+        
+        body div #logo {
+            margin-left: 420px;
+            margin-top: -230px;
+        }
+        
+        body div #lastthree {
+            margin-left: 810px;
+            margin-top: -241px;
+        }
+        
+        body #image #image1 {
+            background-image: url(Images/i1.png);
+            margin-top: 30px;
+            margin-left: 70px;
+            width: 430px;
+            height: 270px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: slide1 60s infinite;
+            border: 4px solid white;
+            z-index: 3;
+            position: relative;
+        }
+        
+        @keyframes slide1 {
+            20% {
+                background-image: url(Images/i2.jpg);
+            }
+            40% {
+                background-image: url(Images/i3.jpg);
+            }
+            60% {
+                background-image: url(Images/i4.jpg);
+            }
+            80% {
+                background-image: url(Images/i5.jpg);
+            }
+            100% {
+                background-image: url(Images/i6.jpg);
+            }
+        }
+        
+        body #image #image2 {
+            background-image: url(Images/i1.png);
+            margin-top: -70px;
+            margin-left: 420px;
+            width: 410px;
+            height: 250px;
+            border: 4px solid white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: slide2 60s infinite;
+            z-index: 3;
+            position: relative;
+        }
+        
+        @keyframes slide2 {
+            20% {
+                background-image: url(Images/i2.jpg);
+            }
+            40% {
+                background-image: url(Images/i3.jpg);
+            }
+            60% {
+                background-image: url(Images/i4.jpg);
+            }
+            80% {
+                background-image: url(Images/i5.jpg);
+            }
+            100% {
+                background-image: url(Images/i6.jpg);
+            }
+        }
+        
+        body #image #image3 {
+            background-image: url(Images/i1.png);
+            margin-top: -425px;
+            margin-left: 520px;
+            width: 210px;
+            height: 150px;
+            border: 4px solid white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: slide3 60s infinite;
+            z-index: 3;
+            position: relative;
+        }
+        
+        @keyframes slide3 {
+            20% {
+                background-image: url(Images/i2.jpg);
+            }
+            40% {
+                background-image: url(Images/i3.jpg);
+            }
+            60% {
+                background-image: url(Images/i4.jpg);
+            }
+            80% {
+                background-image: url(Images/i5.jpg);
+            }
+            100% {
+                background-image: url(Images/i6.jpg);
+            }
+        }
+        
+        body #flower1 {
+            margin-top: -190px;
+            margin-left: -38px;
+        }
+        
+        body #flower2 {
+            width: 300px;
+            height: 200px;
+            margin-top: -906px;
+            margin-left: 824px;
+        }
