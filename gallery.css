@@ -58,7 +58,7 @@ body div #lastthree {
 }
 
 body #image #image1 {
-    background-image: url(Images/i1.png);
+    background-image: url(Images/i1.JPG);
     margin-top: 30px;
     margin-left: 70px;
     width: 430px;
@@ -73,24 +73,24 @@ body #image #image1 {
 
 @keyframes slide1 {
     20% {
-        background-image: url(Images/i2.jpg);
+        background-image: url(Images/i2.JPG);
     }
     40% {
-        background-image: url(Images/i3.jpg);
+        background-image: url(Images/i3.JPG);
     }
     60% {
-        background-image: url(Images/i4.jpg);
+        background-image: url(Images/i4.JPG);
     }
     80% {
-        background-image: url(Images/i5.jpg);
+        background-image: url(Images/i5.JPG);
     }
     100% {
-        background-image: url(Images/i6.jpg);
+        background-image: url(Images/i6.JPG);
     }
 }
 
 body #image #image2 {
-    background-image: url(Images/i1.png);
+    background-image: url(Images/i1.JPG);
     margin-top: -70px;
     margin-left: 420px;
     width: 410px;
@@ -105,24 +105,24 @@ body #image #image2 {
 
 @keyframes slide2 {
     20% {
-        background-image: url(Images/i2.jpg);
+        background-image: url(Images/i2.JPG);
     }
     40% {
-        background-image: url(Images/i3.jpg);
+        background-image: url(Images/i3.JPG);
     }
     60% {
-        background-image: url(Images/i4.jpg);
+        background-image: url(Images/i4.JPG);
     }
     80% {
-        background-image: url(Images/i5.jpg);
+        background-image: url(Images/i5.JPG);
     }
     100% {
-        background-image: url(Images/i6.jpg);
+        background-image: url(Images/i6.JPG);
     }
 }
 
 body #image #image3 {
-    background-image: url(Images/i1.png);
+    background-image: url(Images/i1.JPG);
     margin-top: -425px;
     margin-left: 520px;
     width: 210px;
@@ -137,19 +137,19 @@ body #image #image3 {
 
 @keyframes slide3 {
     20% {
-        background-image: url(Images/i2.jpg);
+        background-image: url(Images/i2.JPG);
     }
     40% {
-        background-image: url(Images/i3.jpg);
+        background-image: url(Images/i3.JPG);
     }
     60% {
-        background-image: url(Images/i4.jpg);
+        background-image: url(Images/i4.JPG);
     }
     80% {
-        background-image: url(Images/i5.jpg);
+        background-image: url(Images/i5.JPG);
     }
     100% {
-        background-image: url(Images/i6.jpg);
+        background-image: url(Images/i6.JPG);
     }
 }
 
